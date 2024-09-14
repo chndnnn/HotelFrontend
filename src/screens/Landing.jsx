@@ -9,7 +9,7 @@ const Landing = ()=>{
         <>
         <Nav name={'chandan'}></Nav>
         <div className=" h-screen w-full bg-slate-900 flex flex-col items-center justify-center font-serif md:bg-none bg-[url('/HotelImage.PNG')] bg-no-repeat bg-center bg-cover">
-        <div className="md:hidden absolute inset-0 bg-black opacity-60"></div>
+        <div className="md:hidden h-screen absolute inset-0 bg-black opacity-60"></div>
         <img src="/logo.PNG" alt="" className="rounded-full h-[230px] w-[230px] z-10" />
         <h1 className="md:text-9xl md:mb-[30px] md:text-white md:m-0 m-6 text-4xl font-bold md:font-thin text-shadow-lg">{localStorage.getItem('name')==''?'HappyHotel':localStorage.getItem('name')}</h1>
         <div className="flex items-center justify-center ">
